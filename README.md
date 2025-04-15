@@ -1,2 +1,4 @@
 # thermohydraulics
-codes and documentation on my thermohydraulics' projects 
+# aerodynamics
+codes and documentation on my personal CFD projects
+
