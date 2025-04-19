@@ -1,5 +1,5 @@
-tous mes codes (et futurs codes) et de la documentation sur mes codes de mécanique des fluides numérique (CFD)
-je travaille essentiellement en Python, dans certains cas, je propose des codes en C/C++ pour plus de facilité
+Tous mes codes (et futurs codes) et leurs documentations associées pour de la mécanique des fluides numérique (CFD).
+Je travaille essentiellement en Python, dans certains cas, je propose des codes en C/C++ pour plus de facilité
 
 # thermique
 radiateur dans une pièce de vie (en cours)
