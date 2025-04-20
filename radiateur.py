@@ -7,11 +7,15 @@ Created on Sat Apr 19 16:06:02 2025
 
 import numpy as np
 import matplotlib.pyplot as plt
-
+import time 
+ 
+# Get the current processor time
+# in seconds at the beginning of the calculation 
+start = time.process_time() 
 
 nx=101
 ny=101
-nt=1500
+nt=int(input("donner la durée de la simulation :"))
 dx=2/(nx-1)
 dy=2/(nx-1)
 alpha=20
@@ -40,4 +44,12 @@ X, Y = np.meshgrid(x, y)
 fig, ax = plt.subplots()
 im = ax.imshow(temp_n, interpolation="bicubic", origin="lower", extent=[0,2,0,2])
 fig.colorbar(im)
+plt.xlabel("x",fontstyle='italic')
+plt.ylabel("y",fontstyle='italic')
+plt.title(label="Temps t = "+str(nt)+"s", fontstyle='italic')
 plt.show()
+
+end = time.process_time() 
+
+ 
+print("Temps écoulé lors du calcul en secondes :", end-start)
