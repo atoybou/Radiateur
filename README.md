@@ -3,8 +3,5 @@ Je travaille essentiellement en Python. Mais dans certains cas, je peux proposer
 
 # thermique
 radiateur dans une pièce de vie (en cours)
-# thermohydraulique 
-tuyauterie d'un réacteur à eau pressurisée (en cours)
-# aerodynamique
-simulation d'écoulement d'air autour d'ailerons avant/arrière d'une Formule 1.
+
 
